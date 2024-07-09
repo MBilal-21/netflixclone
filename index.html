@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Pakistan - Watch TV Shows Online, Watch Movies Online</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 </head>
 <body>
 
     <div class="main">
         <nav>
-            <span><img src="Assests/images/logo.svg "alt="">
+            <span><img src="./Assests/images/logo.svg "alt="Netflix Logo">
             </span> 
             <div>
                 <button class="btn">English</button>
@@ -28,7 +29,7 @@
 
             <div class="hero-btns">
                 <input type="text" placeholder="Email Address">
-                <button class="btn btn-red">Get Started &gt;</button>
+                <button class="btn btn-red">Get Started <span> &gt;</span></button>
             </div>
          
         </div>
@@ -46,7 +47,7 @@
  <span>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</span>
     </div>
     <div class="secimg">
-        <img src="Assests/images/tv.jpg" alt="image">
+        <img src="./Assests/images/tv.jpg" alt="TV">
         <video  src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" autoplay loop muted></video>
     </div>
 </section>
@@ -55,7 +56,7 @@
     <section class="first second">
         
         <div class="secimg">
-            <img src="Assests/images/img 2.jpg" alt="image">
+            <img src="./Assests/images/img 2.jpg" alt="Download shows">
     </div>
         <div>
         <span>Download your shows to watch offline</span>
@@ -70,7 +71,7 @@
      <span>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</span>
         </div>
         <div class="secimg">
-            <img src="Assests/images/tv.jpg" alt="image">
+            <img src="./Assests/images/tv.jpg" alt="TV">
             <video  src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" autoplay loop muted></video>
         </div>
     </section>
@@ -79,7 +80,7 @@
 
     <section class="first third">
         <div class="secimg">
-            <img src="https://occ-0-4091-58.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55" alt="image">
+            <img src="https://occ-0-4091-58.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55" alt="Kids">
             
         </div>
         <div>
@@ -92,52 +93,88 @@
     <section class="faq" id="faq">
         <h2>Frequently Asked Questions</h2>
         <div class="faqbox">
+        <div>
             <span>What is Netflix?</span>
+           <button class="btn faqBtn" >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"  xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-                
+            </button>  
+        </div>
+                       <div class="faqAns d-none">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis, dolor adipisci magnam, accusamus eos modi aut perferendis a ad autem molestias repellendus, dolorum temporibus quis nostrum? Asperiores, totam cupiditate.
+                </div>
         </div>
         <div class="faqbox">
-            <span>How much does Netflix cost?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"  xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
+            <div>
+                <span>How much does Netflix cost?</span>
+                <button class="btn faqBtn"  >
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"  xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="faqAns d-none">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis, dolor adipisci magnam, accusamus eos modi aut perferendis a ad autem molestias repellendus, dolorum temporibus quis nostrum? Asperiores, totam cupiditate.
+            </div>
         </div>
         <div class="faqbox">
-            <span>Where can I watch? </span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"  xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
+            <div>
+                <span>Where can I watch? </span>
+                <button class="btn faqBtn"  >
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"  xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="faqAns d-none">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis, dolor adipisci magnam, accusamus eos modi aut perferendis a ad autem molestias repellendus, dolorum temporibus quis nostrum? Asperiores, totam cupiditate.
+            </div>
         </div>
         <div class="faqbox">
+            <div>
             <span>How do I cancel? </span>
+            <button class="btn faqBtn"  >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"  xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-                
+            </button> 
+        </div>
+                <div class="faqAns d-none">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis, dolor adipisci magnam, accusamus eos modi aut perferendis a ad autem molestias repellendus, dolorum temporibus quis nostrum? Asperiores, totam cupiditate.
+                </div>
         </div>
         <div class="faqbox">
+            <div>
             <span>What can I watch on Netflix?</span>
+            <button class="btn faqBtn"  >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"  xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-                
+            </button> 
+        </div>
+                <div class="faqAns d-none">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis, dolor adipisci magnam, accusamus eos modi aut perferendis a ad autem molestias repellendus, dolorum temporibus quis nostrum? Asperiores, totam cupiditate.
+                </div>
         </div>
         <div class="faqbox">
+            <div>
             <span>Is Netflix good for kids?</span>
+            <button class="btn faqBtn"  >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"  xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-                
+            </button>
+        </div>
+                <div class="faqAns d-none">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis, dolor adipisci magnam, accusamus eos modi aut perferendis a ad autem molestias repellendus, dolorum temporibus quis nostrum? Asperiores, totam cupiditate.
+                </div>
         </div>
     </section>
 
@@ -187,5 +224,20 @@
     </div>
 </div>
 </footer>
+<script>
+   const faqs = document.querySelectorAll(".faqbox");
+   const faqBtn = document.querySelectorAll(".faqBtn svg");
+   const faqAns = document.querySelectorAll(".faqAns");
+   faqs.forEach((element, i)=>{
+    element.addEventListener("click", ()=>{
+        faqBtn[i].classList.toggle("rotate-45");
+        faqAns[i].classList.toggle("d-none");
+   })
+})
+
+ 
+   
+
+</script>
 </body>
 </html>
