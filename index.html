@@ -15,7 +15,7 @@
             </span> 
             <div>
                 <button class="btn">English</button>
-                <button class="btn btn-red-sm">Sign In</button>
+              <a href="#login"> <button class="btn btn-red-sm">Sign In</button></a> 
             </div>
         </nav>
 
@@ -26,12 +26,12 @@
             <span> Unlimited movies, TV shows, and more </span>
             <span>Watch anywhere. Cancel anytime. </span>
             <span>Ready to watch? Enter your email to create or restart your membership.</span>
-
+            <form action="#" onsubmit="navigate(event)" id="login">
             <div class="hero-btns">
-                <input type="text" placeholder="Email Address">
-                <button class="btn btn-red">Get Started <span> &gt;</span></button>
+                <input type="email" placeholder="Email Address" required>
+                <button class="btn btn-red" type="submit">Get Started <span> &gt;</span></button>
             </div>
-         
+            </form>
         </div>
 
         <div class="separation">
@@ -183,7 +183,7 @@
     </div>
 
     <div class="hero-btns me">
-        <button class="btn btn-red">Get Started &gt;</button>
+       <a href="#"><button class="btn btn-red">Get Started &gt;</button></a>
     </div>
 
     <div class="separation"></div>
@@ -205,13 +205,13 @@
             </div>
     </div>
     <div class="footer-items">
-        <a href="#help centre">Help Center</a>
+        <a href="#">Help Center</a>
         <a href="#">Jobs</a>
         <a href="#">Cookie Prefrences</a>
         <a href="#">Legal Notice</a>
     </div>
     <div class="footer-items">
-        <a href="#account">Accounts</a>
+        <a href="#">Accounts</a>
         <a href="#">Ways To Watch</a>
         <a href="#">Corporate Information</a>
         <a href="#">Only on Netflix</a>
@@ -236,7 +236,10 @@
    })
 })
 
- 
+function navigate(e) {
+            e.preventDefault();
+            window.location.href='/movies.html';
+        }
    
 
 </script>
